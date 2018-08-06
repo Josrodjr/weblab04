@@ -1,6 +1,7 @@
 .light {
   width: 100px;
   height: 100px;
+  background: black;
   opacity: 0.5;
   border-radius: 90px 0 0 0;
   float: left;
