@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import './style.css';
 
@@ -6,13 +6,14 @@ import './style.css';
 const ButtonLight = ({
   lightStatus = false,
   color = 'red',
+  number = '',
 }) => (
   <button
   className={
-    `
-      light
-      ${ lightStatus ? 'on' : ''}
-    `
+    `light ${ lightStatus ? 'on' : ''}`
+  }
+  id={
+    `${number}`
   }
   style={{
     background: color,

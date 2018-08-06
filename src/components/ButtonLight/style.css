@@ -2,6 +2,21 @@
   width: 100px;
   height: 100px;
   opacity: 0.5;
+  border-radius: 90px 0 0 0;
+  float: left;
+}
+#FIRST {
+  border-radius: 90px 0 0 0;
+}
+#SECOND {
+  border-radius: 0 90px 0 0;
+}
+#THIRD {
+  clear: left;
+  border-radius: 0 0 0 90px;
+}
+#FOURTH {
+  border-radius: 0 0 90px 0;
 }
 
 .light.on {
